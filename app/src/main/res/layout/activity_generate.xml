@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+android:background="@color/common_google_signin_btn_text_light_default"
+    tools:context=".QrCodeGen">
+
+    <EditText
+        android:id="@+id/edt_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Generate" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/save"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+        <ImageButton
+            android:id="@+id/btnChoose"
+            android:layout_width="20dp"
+            android:layout_height="10mm"
+            android:layout_weight=".2"
+
+            android:src="@drawable/upload" />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/common_google_signin_btn_text_light_default"
+    >
+
+    <ImageView
+        android:id="@+id/QR_Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/html"
+        android:textColor="#34fcf2"
+        android:textIsSelectable="true"/>
+
+</LinearLayout>
+</LinearLayout>

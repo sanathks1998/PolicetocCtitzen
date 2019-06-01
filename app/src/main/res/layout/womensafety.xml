@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:Context=".WomenRegister"
+    android:orientation="vertical"
+    android:background="@drawable/raksha">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="EMERGENCY 1"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/emer1"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="EMERGENCY 2"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:id="@+id/emer2"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"/>
+    </LinearLayout>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/submits"
+        android:layout_marginTop="20dp"
+        android:background="#66B2FF"
+        />
+</LinearLayout>

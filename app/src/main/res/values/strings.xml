@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PolicetoCitizen</string>
+    <string-array name="array_technology">
+        <item>File Complaint</item>
+        <item>Your Fine</item>
+        <item>Chat</item>
+
+
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="about_link"><a href='http://google.com'>http://example.com</a></string>
+
+</resources>

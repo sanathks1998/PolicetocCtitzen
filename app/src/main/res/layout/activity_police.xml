@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/xyz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/showcomp"
+        android:layout_width="150dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Show Complaint"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/codegenerate"
+        android:layout_width="150dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Complaint code"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/numhrs"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Chat"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/readcode"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Read Complaint"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/addpeoples"
+        android:layout_width="150dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Add people"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/mf"
+        android:layout_width="150dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Find Phone"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/findpeoples"
+        android:layout_width="150dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Find people"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Send Sms"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Log Out"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

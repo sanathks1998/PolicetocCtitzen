@@ -18,6 +18,7 @@ Fine payment with QR codes
 This application uses firebase real time database for data analysis. Third party API’s for QR code generation, image processing, chatting. It is built on Android Studio platform and is supported for all android devices and only have basic requirements like Internet,   
 The main perks of this application are it reduces the geographical boundaries between the police and the people. It allows adaptive decision making by the police and making them a approachable service. The people can enjoy the benefits of police in ease and allowing them to get help in all cases if they have their mobile phone
 
+[Refer](POLICE TO CITIZEN APPLICATION.docx)
 
 
 
